@@ -92,6 +92,7 @@ ifneq (,$(filter $(PLATFORM_FLAVOR),mx6qsabresd mx6dlsabresd \
 	mx6dlsabrelite mx6dhmbedge mx6dlhmbedge))
 CFG_DDR_SIZE ?= 0x40000000
 CFG_NS_ENTRY_ADDR ?= 0x12000000
+CFG_UART_BASE ?= UART2_BASE
 endif
 
 ifneq (,$(filter $(PLATFORM_FLAVOR),mx6qhmbedge))
